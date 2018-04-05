@@ -1,5 +1,5 @@
 <CONFIG>
-     <GRID_URL>http://10.238.242.145:4444</GRID_URL>
+     <GRID_URL></GRID_URL>
 
     <MUSTARD_URL>https://mustard.orasi.com/results</MUSTARD_URL>
     <MUSTARD_KEY>d00fa543c3c15b950b4e31903941930a</MUSTARD_KEY>
@@ -10,10 +10,13 @@
     <SAUCE_USERNAME>MattWatson</SAUCE_USERNAME>
     <SAUCE_ACCESS>8ec13fcb-fae2-4ce5-87cb-bfdd31a55f43</SAUCE_ACCESS>
 
-    <APP_URL>http://watch.cbc.ca/</APP_URL>
+    <APP_URL>http://the-internet.herokuapp.com/</APP_URL>
 
     <ANDROID_BUNDLE_ID></ANDROID_BUNDLE_ID>
     <ANDROID_APP_URL></ANDROID_APP_URL>
     <IOS_BUNDLE_ID></IOS_BUNDLE_ID>
     <IOS_APP_URL></IOS_APP_URL>
 </CONFIG>
+
+
+
