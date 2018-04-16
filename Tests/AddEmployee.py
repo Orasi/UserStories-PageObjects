@@ -1,9 +1,11 @@
-from Helpers.BaseTest import BaseTest
-from Pages.EmployeePage import EmployeePage
 from time import sleep
-from TestSteps.Test_Steps import test_login_steps, test_add_dept_steps
+
 from selenium.webdriver.support.select import Select
+
+from Helpers.BaseTest import BaseTest
 from Pages.BHomePage import BHomePage
+from Pages.EmployeePage import EmployeePage
+from TestSteps.Test_Steps import test_login_steps, test_add_dept_steps
 
 
 class AddEmployee(BaseTest):
@@ -37,5 +39,4 @@ class AddEmployee(BaseTest):
         Select(employee_page.employee_department).select_by_visible_text(department)
         employee_page.create_employee.click
         employee_page.sync()
-        assert employee_page.success_created, "The Employee %s was not sucessfully created" % username
-
+        assert employee_page.success_created, "The Employee: %s was not sucessfully created" % username
